@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main(){
-	int height = 10,length = 12,width = 8,v,v1;
+	int height ,length ,width,v,v1;
+	scanf("%d",&height);
+	scanf("%d",&length);
+	scanf("%d",&width);
+	
 	v = height*length*width;
 	v1 = (v+165)/166;
 	printf("%d",v1);
